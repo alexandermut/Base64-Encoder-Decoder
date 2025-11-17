@@ -227,6 +227,18 @@
         color: var(--border-color);
         font-size: 0.875rem;
       }
+      footer p {
+        margin-bottom: 0.5rem;
+      }
+      footer a {
+        color: var(--text-muted-color);
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      footer a:hover {
+        color: var(--accent-color);
+        text-decoration: underline;
+      }
     </style>
   </head>
   <body>
@@ -272,8 +284,13 @@
         <div id="error-container" class="error-box" style="display: none;"></div>
       </main>
 
-      <footer class="text-center mt-8 text-gray-500 text-sm">
+      <footer>
         <p>Erstellt mit HTML, CSS & JavaScript.</p>
+        <div>
+          <a href="https://alexandermut.github.io/kontaktdaten_vcard_alexander_mut/impressum.html" target="_blank" rel="noopener noreferrer">Impressum</a>
+          <span>&nbsp;|&nbsp;</span>
+          <a href="https://alexandermut.github.io/kontaktdaten_vcard_alexander_mut/datenschutz.html" target="_blank" rel="noopener noreferrer">Datenschutz</a>
+        </div>
       </footer>
     </div>
     <script type="module" src="/index.tsx"></script>
