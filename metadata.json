@@ -1,5 +1,0 @@
-{
-  "name": "Base64 Encoder / Decoder",
-  "description": "A modern, dark-themed single-page application to encode text to Base64 and decode Base64 strings back to text, inspired by Google's AI Studio.",
-  "requestFramePermissions": []
-}
